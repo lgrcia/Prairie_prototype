@@ -1,0 +1,65 @@
+input_1___input:
+  connections:
+    a8df17ec-953b-4bf1-b2b3-2e9e87545d42: 1b56233d-1361-47c5-8030-17fa3d42b1c7
+  name: input_1
+  nodes:
+  - block_name: input_1
+    id: a8df17ec-953b-4bf1-b2b3-2e9e87545d42
+    name: x
+  position:
+  - 35.0
+  - 103.0
+  type: input
+  value: 60
+input_2___input:
+  connections:
+    e6733741-7089-4dd3-a743-e570937b0a01: c27eaf8d-7c59-4f47-ba40-00b1d073b4a8
+  name: input_2
+  nodes:
+  - block_name: input_2
+    id: e6733741-7089-4dd3-a743-e570937b0a01
+    name: x
+  position:
+  - 30.0
+  - 170.0
+  type: input
+  value: 50
+plot_1___image:
+  connections:
+    dcbd9a61-0f00-4106-9bfb-85856144c63a: d0260064-5709-4277-9ba1-13b13ebee72b
+  name: plot_1
+  nodes:
+  - block_name: plot_1
+    id: d0260064-5709-4277-9ba1-13b13ebee72b
+    name: x
+  - block_name: plot_1
+    id: 2a520fc6-94fe-40f5-85cb-8013a320e40e
+    name: 0
+  position:
+  - 389.0
+  - 37.0
+  type: image
+  value: 0
+random_image___function:
+  connections:
+    a8df17ec-953b-4bf1-b2b3-2e9e87545d42: 1b56233d-1361-47c5-8030-17fa3d42b1c7
+    dcbd9a61-0f00-4106-9bfb-85856144c63a: d0260064-5709-4277-9ba1-13b13ebee72b
+    e6733741-7089-4dd3-a743-e570937b0a01: c27eaf8d-7c59-4f47-ba40-00b1d073b4a8
+  file_name: lscripts/test_functions.py
+  function_name: random_image
+  name: random_image
+  nodes:
+  - block_name: random_image
+    id: c27eaf8d-7c59-4f47-ba40-00b1d073b4a8
+    name: x
+  - block_name: random_image
+    id: 1b56233d-1361-47c5-8030-17fa3d42b1c7
+    name: y
+  - block_name: random_image
+    id: dcbd9a61-0f00-4106-9bfb-85856144c63a
+    name: 0
+  position:
+  - 208.0
+  - 116.0
+  type: function
+  value: 0

@@ -1,0 +1,103 @@
+addition___function:
+  connections:
+    3727b020-b25e-4662-af86-fdecb8679924: d0d1138c-d7ea-465d-9d4a-6705f2894db1
+    8ee95df1-1cbd-4752-a697-8c2b346c653f: e0cbd9ef-a985-4a8a-8ea9-c2e755b6db98
+    f8663247-d858-46c0-a73f-f7d9cfdd7d56: bce4c665-f33c-4b39-b606-e850a20d33b5
+  file_name: lscripts/test_functions.py
+  function_name: addition
+  name: addition
+  nodes:
+  - block_name: addition
+    id: e0cbd9ef-a985-4a8a-8ea9-c2e755b6db98
+    name: a
+  - block_name: addition
+    id: bce4c665-f33c-4b39-b606-e850a20d33b5
+    name: b
+  - block_name: addition
+    id: 3727b020-b25e-4662-af86-fdecb8679924
+    name: 0
+  position:
+  - 596.573651755639
+  - 187.25300136114225
+  type: function
+  value: 0
+input_1___input:
+  connections:
+    a0d1a7b3-27a4-4f81-a9a1-42a1e2995ef7: bc14ebac-91e8-47fb-a99a-8a430b21b097
+  name: input_1
+  nodes:
+  - block_name: input_1
+    id: a0d1a7b3-27a4-4f81-a9a1-42a1e2995ef7
+    name: x
+  position:
+  - 30.0
+  - 90.0
+  type: input
+  value: 60
+input_2___input:
+  connections:
+    2afc7e0b-0728-4f40-ac03-5faa4ad605ab: 15280346-352c-47ad-a1d0-2e1393c536b4
+  name: input_2
+  nodes:
+  - block_name: input_2
+    id: 2afc7e0b-0728-4f40-ac03-5faa4ad605ab
+    name: x
+  position:
+  - 30.0
+  - 170.0
+  type: input
+  value: 50
+input_3___input:
+  connections:
+    8ee95df1-1cbd-4752-a697-8c2b346c653f: e0cbd9ef-a985-4a8a-8ea9-c2e755b6db98
+  name: input_3
+  nodes:
+  - block_name: input_3
+    id: 8ee95df1-1cbd-4752-a697-8c2b346c653f
+    name: x
+  position:
+  - 30.0
+  - 250.0
+  type: input
+  value: 50
+multiplication___function:
+  connections:
+    2afc7e0b-0728-4f40-ac03-5faa4ad605ab: 15280346-352c-47ad-a1d0-2e1393c536b4
+    a0d1a7b3-27a4-4f81-a9a1-42a1e2995ef7: bc14ebac-91e8-47fb-a99a-8a430b21b097
+    f8663247-d858-46c0-a73f-f7d9cfdd7d56: bce4c665-f33c-4b39-b606-e850a20d33b5
+  file_name: lscripts/test_functions.py
+  function_name: multiplication
+  name: multiplication
+  nodes:
+  - block_name: multiplication
+    id: 15280346-352c-47ad-a1d0-2e1393c536b4
+    name: a
+  - block_name: multiplication
+    id: bc14ebac-91e8-47fb-a99a-8a430b21b097
+    name: b
+  - block_name: multiplication
+    id: f8663247-d858-46c0-a73f-f7d9cfdd7d56
+    name: 0
+  position:
+  - 403.7105241424342
+  - 121.7752244243469
+  type: function
+  value: 0
+sinus___function:
+  connections:
+    3727b020-b25e-4662-af86-fdecb8679924: d0d1138c-d7ea-465d-9d4a-6705f2894db1
+  file_name: lscripts/test_functions.py
+  function_name: sinus
+  name: sinus
+  nodes:
+  - block_name: sinus
+    id: d0d1138c-d7ea-465d-9d4a-6705f2894db1
+    name: x
+  - block_name: sinus
+    id: d9258d3b-119c-49ad-b458-0ce2722af730
+    name: 0
+  position:
+  - 827.7209552669173
+  - 127.1603251972484
+  type: function
+  value: 0

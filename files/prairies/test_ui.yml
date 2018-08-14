@@ -1,0 +1,49 @@
+prairie:
+  blocks:
+    046dd43b-4b9a-42b9-a3bf-49a31e9c6fb5:
+      id: 046dd43b-4b9a-42b9-a3bf-49a31e9c6fb5
+      name: input
+      nodes:
+        in:
+          589f2c73-3133-4490-a4c4-60ecf13f1847: 589f2c73-3133-4490-a4c4-60ecf13f1847
+        out:
+          cbbcc64d-18e3-464a-a2f4-5a520e1a690a: cbbcc64d-18e3-464a-a2f4-5a520e1a690a
+      type: input
+      value: 0
+    28e64402-ef9c-46a6-a6da-ab02344accd0:
+      id: 28e64402-ef9c-46a6-a6da-ab02344accd0
+      name: output
+      nodes:
+        in:
+          0a99e5ea-bd77-4774-befc-1d41f415d78d: 0a99e5ea-bd77-4774-befc-1d41f415d78d
+        out:
+          649de25b-cc23-481e-b7f3-6ccc2aff5105: 649de25b-cc23-481e-b7f3-6ccc2aff5105
+      script_file: files/scripts/basic_functions.py
+      script_function: output
+      type: output
+  connections:
+    0e662ad0-c109-407c-9f33-ed6798e50c46:
+    - 046dd43b-4b9a-42b9-a3bf-49a31e9c6fb5
+    - cbbcc64d-18e3-464a-a2f4-5a520e1a690a
+    - 28e64402-ef9c-46a6-a6da-ab02344accd0
+    - 0a99e5ea-bd77-4774-befc-1d41f415d78d
+  nodes:
+    0a99e5ea-bd77-4774-befc-1d41f415d78d:
+      block_id: 28e64402-ef9c-46a6-a6da-ab02344accd0
+      node_name: x
+    589f2c73-3133-4490-a4c4-60ecf13f1847:
+      block_id: 046dd43b-4b9a-42b9-a3bf-49a31e9c6fb5
+      node_name: x
+    649de25b-cc23-481e-b7f3-6ccc2aff5105:
+      block_id: 28e64402-ef9c-46a6-a6da-ab02344accd0
+      node_name: return_0
+    cbbcc64d-18e3-464a-a2f4-5a520e1a690a:
+      block_id: 046dd43b-4b9a-42b9-a3bf-49a31e9c6fb5
+      node_name: return_0
+prairie_view:
+  046dd43b-4b9a-42b9-a3bf-49a31e9c6fb5:
+  - -327.0
+  - -283.0
+  28e64402-ef9c-46a6-a6da-ab02344accd0:
+  - -142.0
+  - -292.0

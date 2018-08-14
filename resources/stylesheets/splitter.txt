@@ -1,0 +1,3 @@
+QSplitter::handle {
+image: url(:/images/splitter.png); width: 0px
+}

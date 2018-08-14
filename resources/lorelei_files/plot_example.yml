@@ -1,0 +1,52 @@
+console_input_1___console_out:
+  connections:
+    4a9c55cd-2b9e-4b3f-a58a-cdbaf8060572: a3adec60-7a63-44e9-bf21-91405471a7e6
+  name: console_input_1
+  nodes:
+  - block_name: console_input_1
+    id: 4a9c55cd-2b9e-4b3f-a58a-cdbaf8060572
+    name: x
+  position:
+  - 63.0
+  - 158.0
+  type: console_out
+  value: np.arange(0,2*np.pi ,0.1)
+plot_1___figure:
+  connections:
+    4a9c55cd-2b9e-4b3f-a58a-cdbaf8060572: 360916ab-3d09-40e3-a6bd-8d81da22ad96
+    bb15d030-571b-4257-b181-4322226df77a: 43723908-5c17-47d7-8711-1c88131a980a
+  name: plot_1
+  nodes:
+  - block_name: plot_1
+    id: 360916ab-3d09-40e3-a6bd-8d81da22ad96
+    name: x
+  - block_name: plot_1
+    id: 43723908-5c17-47d7-8711-1c88131a980a
+    name: y
+  - block_name: plot_1
+    id: 941ff809-0beb-4911-9d0e-dddadbe1027f
+    name: 0
+  position:
+  - 531.0
+  - 15.0
+  type: figure
+  value: 0
+random_sinus___function:
+  connections:
+    4a9c55cd-2b9e-4b3f-a58a-cdbaf8060572: a3adec60-7a63-44e9-bf21-91405471a7e6
+    bb15d030-571b-4257-b181-4322226df77a: 43723908-5c17-47d7-8711-1c88131a980a
+  file_name: lscripts/test_functions.py
+  function_name: random_sinus
+  name: random_sinus
+  nodes:
+  - block_name: random_sinus
+    id: a3adec60-7a63-44e9-bf21-91405471a7e6
+    name: x
+  - block_name: random_sinus
+    id: bb15d030-571b-4257-b181-4322226df77a
+    name: 0
+  position:
+  - 318.0
+  - 20.0
+  type: function
+  value: 0

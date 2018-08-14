@@ -1,0 +1,71 @@
+prairie:
+  blocks:
+    55502c94-7de3-47d7-a973-8f782a4037d5:
+      id: 55502c94-7de3-47d7-a973-8f782a4037d5
+      name: input
+      nodes:
+        in:
+          1c24e3f7-1d32-440d-baa4-4f6147f96f14: 1c24e3f7-1d32-440d-baa4-4f6147f96f14
+        out:
+          14b77189-a35d-4f50-b2d1-a6fa484dcb26: 14b77189-a35d-4f50-b2d1-a6fa484dcb26
+      type: input
+      value:
+      - 0
+      - 1
+      - 2
+    fabeaa8d-772d-46c0-897e-6d2a631a5fda:
+      id: fabeaa8d-772d-46c0-897e-6d2a631a5fda
+      name: output
+      nodes:
+        in:
+          a26a3502-76ab-45d7-bc16-630190064d0b: a26a3502-76ab-45d7-bc16-630190064d0b
+          ff16d887-c444-4d3d-8d69-26a6f4beff9d: ff16d887-c444-4d3d-8d69-26a6f4beff9d
+        out:
+          93e689e8-49d3-4fec-bb21-57e24928b3f6: 93e689e8-49d3-4fec-bb21-57e24928b3f6
+          a0883e2f-fc19-4c22-a6d2-051e01727b63: a0883e2f-fc19-4c22-a6d2-051e01727b63
+      script_file: files/scripts/basic_functions.py
+      script_function: chart
+      type: chart
+  connections:
+    36e9225b-c0b5-400d-8486-8d946b0f1c1a:
+    - 55502c94-7de3-47d7-a973-8f782a4037d5
+    - 14b77189-a35d-4f50-b2d1-a6fa484dcb26
+    - fabeaa8d-772d-46c0-897e-6d2a631a5fda
+    - a26a3502-76ab-45d7-bc16-630190064d0b
+    e6f3ac23-ec23-49c5-9a1b-dff4a00a8f2a:
+    - 55502c94-7de3-47d7-a973-8f782a4037d5
+    - 14b77189-a35d-4f50-b2d1-a6fa484dcb26
+    - fabeaa8d-772d-46c0-897e-6d2a631a5fda
+    - ff16d887-c444-4d3d-8d69-26a6f4beff9d
+  nodes:
+    14b77189-a35d-4f50-b2d1-a6fa484dcb26:
+      block_id: 55502c94-7de3-47d7-a973-8f782a4037d5
+      node_name: x
+      node_type: out
+    1c24e3f7-1d32-440d-baa4-4f6147f96f14:
+      block_id: 55502c94-7de3-47d7-a973-8f782a4037d5
+      node_name: x
+      node_type: in
+    93e689e8-49d3-4fec-bb21-57e24928b3f6:
+      block_id: fabeaa8d-772d-46c0-897e-6d2a631a5fda
+      node_name: y
+      node_type: out
+    a0883e2f-fc19-4c22-a6d2-051e01727b63:
+      block_id: fabeaa8d-772d-46c0-897e-6d2a631a5fda
+      node_name: x
+      node_type: out
+    a26a3502-76ab-45d7-bc16-630190064d0b:
+      block_id: fabeaa8d-772d-46c0-897e-6d2a631a5fda
+      node_name: y
+      node_type: in
+    ff16d887-c444-4d3d-8d69-26a6f4beff9d:
+      block_id: fabeaa8d-772d-46c0-897e-6d2a631a5fda
+      node_name: x
+      node_type: in
+prairie_view:
+  55502c94-7de3-47d7-a973-8f782a4037d5:
+  - -284.0
+  - -160.0
+  fabeaa8d-772d-46c0-897e-6d2a631a5fda:
+  - -49.0
+  - -284.0

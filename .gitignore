@@ -1,0 +1,7 @@
+design_prairie*
+*.pyc
+Pipfile.lock
+previous_versions
+.ipynb_checkpoints
+*psf_models.py
+*.DS_Store

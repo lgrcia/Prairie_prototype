@@ -1,0 +1,15 @@
+Darwin:
+  fonts:
+    block_name_font: {font_family: Roboto, font_size: 10}
+    console_block_widget_font: {font_family: Roboto Mono, font_size: 11}
+    input_block_widget_font: {font_family: Roboto, font_size: 11}
+    node_name_font: {font_family: Roboto, font_size: 10}
+  wheel_zoom: 0.95
+Windows:
+  fonts:
+    block_name_font: {font_family: Roboto, font_size: 8}
+    console_block_widget_font: {font_family: Roboto Mono, font_size: 8.5}
+    input_block_widget_font: {font_family: Roboto, font_size: 8.5}
+    node_name_font: {font_family: Roboto, font_size: 8}
+  wheel_zoom: 0.8
+os: Darwin

@@ -1,0 +1,93 @@
+prairie:
+  blocks:
+    46386966-6ab8-4c02-b4ee-9887e2736ac6:
+      id: 46386966-6ab8-4c02-b4ee-9887e2736ac6
+      name: input
+      nodes:
+        in:
+          807aabe9-261f-469f-a705-620005b3be73: 807aabe9-261f-469f-a705-620005b3be73
+        out:
+          0a7a726d-54ab-4da9-bbf7-413936fb13dc: 0a7a726d-54ab-4da9-bbf7-413936fb13dc
+      type: input
+      value: 1000
+    f0a5ffb3-4c5f-468f-b4d5-a17a66952715:
+      id: f0a5ffb3-4c5f-468f-b4d5-a17a66952715
+      name: input
+      nodes:
+        in:
+          ec86fe86-7444-410d-a612-3bad13bbe465: ec86fe86-7444-410d-a612-3bad13bbe465
+        out:
+          f8e247a0-e148-4d78-8607-2cd2b8ce65a8: f8e247a0-e148-4d78-8607-2cd2b8ce65a8
+      type: input
+      value: 2000
+    f4c25420-90eb-45cd-8db6-44247f81cc5b:
+      id: f4c25420-90eb-45cd-8db6-44247f81cc5b
+      name: output
+      nodes:
+        in:
+          accd22ed-6c3b-4ca1-a923-99df3fba528d: accd22ed-6c3b-4ca1-a923-99df3fba528d
+        out:
+          8291399a-f1de-41e5-9f8a-76efa7933ada: 8291399a-f1de-41e5-9f8a-76efa7933ada
+      script_file: files/scripts/basic_functions.py
+      script_function: output
+      type: output
+    fb58e1c2-c6db-49b9-89e0-385be1cd2b7a:
+      id: fb58e1c2-c6db-49b9-89e0-385be1cd2b7a
+      name: output
+      nodes:
+        in:
+          e0543f57-b6b6-4d69-8191-ac4a5084f1d4: e0543f57-b6b6-4d69-8191-ac4a5084f1d4
+        out:
+          4ddd9550-a735-4413-86e4-6547b1470df8: 4ddd9550-a735-4413-86e4-6547b1470df8
+      script_file: files/scripts/basic_functions.py
+      script_function: output
+      type: output
+  connections:
+    2045f680-3aca-4ed5-9653-34b1fa8c9349:
+    - 46386966-6ab8-4c02-b4ee-9887e2736ac6
+    - 0a7a726d-54ab-4da9-bbf7-413936fb13dc
+    - fb58e1c2-c6db-49b9-89e0-385be1cd2b7a
+    - e0543f57-b6b6-4d69-8191-ac4a5084f1d4
+    d600d05d-7a13-42ef-b551-762c1e37d567:
+    - f0a5ffb3-4c5f-468f-b4d5-a17a66952715
+    - f8e247a0-e148-4d78-8607-2cd2b8ce65a8
+    - f4c25420-90eb-45cd-8db6-44247f81cc5b
+    - accd22ed-6c3b-4ca1-a923-99df3fba528d
+  nodes:
+    0a7a726d-54ab-4da9-bbf7-413936fb13dc:
+      block_id: 46386966-6ab8-4c02-b4ee-9887e2736ac6
+      node_name: return_0
+    4ddd9550-a735-4413-86e4-6547b1470df8:
+      block_id: fb58e1c2-c6db-49b9-89e0-385be1cd2b7a
+      node_name: return_0
+    807aabe9-261f-469f-a705-620005b3be73:
+      block_id: 46386966-6ab8-4c02-b4ee-9887e2736ac6
+      node_name: x
+    8291399a-f1de-41e5-9f8a-76efa7933ada:
+      block_id: f4c25420-90eb-45cd-8db6-44247f81cc5b
+      node_name: return_0
+    accd22ed-6c3b-4ca1-a923-99df3fba528d:
+      block_id: f4c25420-90eb-45cd-8db6-44247f81cc5b
+      node_name: x
+    e0543f57-b6b6-4d69-8191-ac4a5084f1d4:
+      block_id: fb58e1c2-c6db-49b9-89e0-385be1cd2b7a
+      node_name: x
+    ec86fe86-7444-410d-a612-3bad13bbe465:
+      block_id: f0a5ffb3-4c5f-468f-b4d5-a17a66952715
+      node_name: x
+    f8e247a0-e148-4d78-8607-2cd2b8ce65a8:
+      block_id: f0a5ffb3-4c5f-468f-b4d5-a17a66952715
+      node_name: return_0
+prairie_view:
+  46386966-6ab8-4c02-b4ee-9887e2736ac6:
+  - -328.0
+  - -357.0
+  f0a5ffb3-4c5f-468f-b4d5-a17a66952715:
+  - -361.0
+  - -280.0
+  f4c25420-90eb-45cd-8db6-44247f81cc5b:
+  - -141.0
+  - -291.0
+  fb58e1c2-c6db-49b9-89e0-385be1cd2b7a:
+  - -137.0
+  - -363.0

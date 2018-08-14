@@ -1,0 +1,60 @@
+QTabWidget::pane { /* The tab widget frame */
+    border-right: 1px solid rgba(0,0,0,0);
+    background: rgb(200,200,200);
+}
+
+QTabBar {
+border: 1px solid rgb(220,220,220);
+}
+
+QTabWidget::tab-bar {
+    left: 0px;
+    border: 0px solid rgb(220,220,220);
+}
+
+QTabWidget{
+    border: 5px solid rgb(0,0,0);
+}
+
+/* Style the tab using the tab sub-control. Note that it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: rgb(240,240,240);
+    border: 1px solid rgb(200,200,200);
+    min-width: 80px;
+    font-size: 12px;
+    color: rgb(110,110,110);
+    padding: 5px;
+    margin-left: -1px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    border: 1px solid rgb(200,200,200);
+    background: rgb(240,240,240);
+    }
+
+QTabBar::tab:selected {
+    border: 1px solid rgb(37,140,249);
+    background: rgb(67, 153, 250);
+    color: rgb(255,255,255)
+}
+
+QTabBar::tab:!selected {
+    margin-top: 0px; /* make non-selected tabs look smaller */
+}
+
+QTabBar::tab:selected {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+QTabBar::tab:first:selected {
+    margin-left: 0;
+}
+
+QTabBar::tab:last:selected {
+    margin-right: 0;
+}
+
+QTabBar::tab:only-one {
+    margin: 0;
+}
