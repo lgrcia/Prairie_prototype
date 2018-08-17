@@ -1,8 +1,8 @@
-from model.core import Prairie, FunctionThread
-from view.blocks_view import InputBlockView, FunctionBlockView, OutputBlockView, ChartBlockView
-from view.prairie_view import PrairieView, ConnectionView, BlockView, NodeView
-from model.blocks import *
-from model.core import *
+from prairie.model.core import Prairie, FunctionThread
+from prairie.view.blocks_view import InputBlockView, FunctionBlockView, OutputBlockView, ChartBlockView
+from prairie.view.prairie_view import PrairieView, ConnectionView, BlockView, NodeView
+from prairie.model.blocks import *
+from prairie.model.core import *
 from PyQt5.QtCore import *
 from pprint import pprint
 import yaml

@@ -1,7 +1,7 @@
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
-from model.compiler import functions
+from prairie.model.compiler import functions
 
 import os
 import json

@@ -1,5 +1,5 @@
-from model.core import Block
-from model.compiler import functions
+from prairie.model.core import Block
+from prairie.model.compiler import functions
 import uuid
 
 

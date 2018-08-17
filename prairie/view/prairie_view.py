@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from view.blocks_view import *
+from prairie.view.blocks_view import *
 import json
 import yaml
 

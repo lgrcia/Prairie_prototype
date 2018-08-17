@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtChart import *
-from view.chart_view import Chart, ChartView
+from prairie.view.chart_view import Chart, ChartView
 import numpy as np
 import yaml
 

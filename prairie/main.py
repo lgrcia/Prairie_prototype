@@ -1,10 +1,10 @@
 import sys
 from PyQt5.QtWidgets import *
 
-from controller.controller import Controller
-from view.prairie_view import PrairieView
-from model.core import Prairie
-from view.file_system_tree import Tree
+from prairie.controller.controller import Controller
+from prairie.view.prairie_view import PrairieView
+from prairie.model.core import Prairie
+from prairie.view.file_system_tree import Tree
 
 import yaml
 
