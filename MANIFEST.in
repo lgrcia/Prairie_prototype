@@ -1,4 +1,4 @@
 include lICENSE
 include AUTHORS.rst
 include CHANGELOG.rst
-include README.rst
+include README.md
