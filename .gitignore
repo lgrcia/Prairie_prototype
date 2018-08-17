@@ -1,7 +1,37 @@
-design_prairie*
+# Byte-compiled
 *.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs
+
+# Pycharm
+.idea/
+
+# Sphinx documentation
+_build
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+
+# mypy
+.mypy_cache/
+
+design_prairie*
 Pipfile.lock
 previous_versions
-.ipynb_checkpoints
 *psf_models.py
 *.DS_Store
