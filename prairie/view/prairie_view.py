@@ -4,8 +4,17 @@ from PyQt5.QtCore import *
 from prairie.view.blocks_view import *
 import json
 import yaml
+import prairie.resources.configuration
 
-with open('resources/configuration/conf.yml') as f:
+try:
+    # Standard library since Python 3.7
+    from importlib import resources
+except ImportError:
+    # Try backport for Python < 3.7
+    import importlib_resources as resources   # pip install importlib_resources
+
+
+with resources.open_text(prairie.resources.configuration, 'conf.yml') as f:
     config_doc = yaml.load(f)
     os = config_doc['os']
     config_doc = config_doc[config_doc['os']]

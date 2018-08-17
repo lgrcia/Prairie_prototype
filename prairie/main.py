@@ -7,8 +7,17 @@ from prairie.model.core import Prairie
 from prairie.view.file_system_tree import Tree
 
 import yaml
+import prairie.resources.configuration
+import prairie.resources.stylesheets
 
-with open('resources/configuration/conf.yml') as f:
+try:
+    # Standard library since Python 3.7
+    from importlib import resources
+except ImportError:
+    # Try backport for Python < 3.7
+    import importlib_resources as resources   # pip install importlib_resources
+
+with resources.open_text(prairie.resources.configuration, 'conf.yml') as f:
     config_doc = yaml.load(f)
 
 
@@ -55,9 +64,9 @@ class App(QMainWindow):
     def style_ui(self):
 
         self.main_layout.setContentsMargins(0, 0, 0, 0)
-        with open('resources/stylesheets/splitter.txt', 'r') as f:
+        with resources.open_text(prairie.resources.stylesheets, 'splitter.txt') as f:
             self.main_layout.setStyleSheet(f.read())
-        with open('resources/stylesheets/tabWidget.txt', 'r') as f:
+        with resources.open_text(prairie.resources.stylesheets, 'tabWidget.txt') as f:
             self.code_tabs.setStyleSheet(f.read())
 
     # def keyPressEvent(self, event):
