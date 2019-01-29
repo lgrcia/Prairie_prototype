@@ -1,2 +1,1 @@
-# Praire
-Visual programming environment for Python 
+**Praire_prototype** is a prototype for [Prairie](https://github.com/LionelGarcia/Prairie) made in Python with Qt. For the current version of Prairie see [this repository](https://github.com/LionelGarcia/Prairie)
